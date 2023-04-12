@@ -1,0 +1,28 @@
+body, .bg-white {
+  background-image: url("https://i.ibb.co/cbrcv4T/unnamed-1.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  color: #ffffff;
+  position: relative;
+}
+
+header.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+header .brand.animated.bounceIn {
+  margin-top: 0;
+  max-height: 100%;
+}
+
+header#powered_by_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
